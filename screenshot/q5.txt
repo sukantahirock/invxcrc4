@@ -1,0 +1,18 @@
+1. app/
+This folder contains the core application code, including the business logic, Models, Controllers, Middleware, and Console commands. Most of your backend functionality is implemented here.
+
+2. routes/
+This folder holds all the route definition files such as web.php (web routes) and api.php (API routes). It determines which controller or view will handle a given URL request.
+
+3. resources/views/
+This folder stores all the Blade template files for your application's frontend views. It contains the HTML (with Blade syntax) that will be rendered for the user.
+
+4. public/
+The public folder is the web server’s document root. It contains the index.php file, which bootstraps the Laravel application, and publicly accessible assets like CSS, JavaScript, and images.
+
+5. database/
+This folder contains database migrations, seeders, and factories. It is used for defining and managing the database structure and for generating sample data.
+
+6. config/
+The config folder holds all of Laravel’s configuration files, such as settings for the app, database, mail, and more. These files load values from the .env file to configure the application environment.
+
